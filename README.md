@@ -112,6 +112,20 @@ const dati = parseFile(fs.readFileSync('luglio.txt', 'utf8'));
 creaPdf(dati, 'report.pdf');
 ```
 
+## Esempio file di dati
+
+Luglio.txt
+```txt
+------------------------
+LUGLIO 2026
+
+2026-07-01
+- Patching Cluster - Verifiche configurazioni namespace OCP Monitoraggio e metriche per buchi di sample.
+2026-07-03
+- Patching Cluster - Verifiche configurazioni namespace OCP Monitoraggio e metriche per buchi di sample.
+- Libretti - Poteri di Firma - Report e verbalizzazione.
+```
+
 ## Errori gestiti
 
 | Messaggio | Causa |
